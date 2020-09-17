@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 h1{
     display: inline;
     font-family: 'Lobster', cursive;
@@ -14,7 +17,7 @@ h1{
     display: flex;
     float: right;
     margin:0px;
-    position: absolute;
+    /* position: absolute; */
     left: 1250px;
 }
 header p{
@@ -34,7 +37,103 @@ h2{
 }
 #pizza{
     width: 100%;
+    margin-right: 20px;
 }
 #print{
     float: right;
 }
+#date {
+    position: relative;
+    bottom: 25px;
+    margin: 0;
+    padding: 0;
+    font-size: .7pc;
+    color: gray;
+}
+
+#para{
+    text-indent: 25px;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+#recipe{
+    background-image: url('img/list-bg.png') ;
+    background-size: cover;
+    height: 380px;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+ul{
+    list-style: none;
+}
+#ul2{
+    float: right;
+    position: relative;
+    bottom: 280px;
+}
+button{
+    background-color: #ce00009c;
+    color: white;
+    float: right;
+    position: relative;
+    left: 300px;
+    padding: 30px;
+}
+
+#vanessa img{
+    display: inline;
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+
+}
+
+h4{
+    position: relative;
+    left: 10px;
+    bottom:20px ;
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#vanessa p{
+    clear: both;
+    display: inline; 
+    position: relative;
+ top:60px;
+ right:60px;
+ letter-spacing: 0px;
+font-size: 25px;
+}
+
+#vanessa {
+    height: 300px;
+    width: 100%;
+    font-size: large;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+footer{
+    text-align: center;
+}
+
+
+#print-img{
+    width: 30px;
+}
+#print{
+    float: right;
+}
+#print p{
+    color: gray;
+    float: right;
+    position: relative;
+    bottom: 15px;
+}
+
