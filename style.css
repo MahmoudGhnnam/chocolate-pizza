@@ -13,12 +13,14 @@ h1{
     margin-right: 10px;
 }
 #icons {
+    position: relative;
     list-style: none;
     display: flex;
     float: right;
     margin:0px;
     /* position: absolute; */
-    left: 1250px;
+    left: 1px;
+    bottom: 90px;
 }
 header p{
     clear: both;
@@ -79,7 +81,7 @@ button{
     color: white;
     float: right;
     position: relative;
-    left: 300px;
+    left: 500px;
     padding: 30px;
 }
 
@@ -136,4 +138,15 @@ footer{
     position: relative;
     bottom: 15px;
 }
+
+.border {
+    background: gray repeating-linear-gradient(-45deg, transparent, transparent 1px, #fff 1px, #fff 7px, transparent 7px, transparent 8px, #fff 8px, #fff 14px);
+    background-size: 10px 10px; /* equal to last color stop point / sqrt(2) - 14 / 1.414 */
+    height: 20px;
+    margin-top: 50px;
+  }
+
+  #wifi{
+      margin-left: 5px;
+  }
 
